@@ -1,6 +1,6 @@
 import { client } from '../../lib/client'
 
-const query = `*[_type == "conversations" && isDm==false]{
+const query = `*[_type == "conversation" && isDm==false]{
   roomId,
   roomName,
   "avatar": image.asset->url

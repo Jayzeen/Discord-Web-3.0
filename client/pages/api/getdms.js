@@ -1,6 +1,6 @@
 import { client } from '../../lib/client'
 
-const query = `*[_type == "conversations" && isDm==true]{
+const query = `*[_type == "conversation" && isDm==true]{
   "conversation": userReference->{
     name,
     walletAddress,
