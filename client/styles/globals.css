@@ -20,6 +20,10 @@
   --hover-light-grey-color: #3b3d43;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: #202225;
   font-size: 0.95rem;
